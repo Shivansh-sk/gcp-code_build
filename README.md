@@ -26,7 +26,13 @@ Follow these instructions to deploy the application on Google Cloud
 
 The setup is complete and now we have to test the website.
 
-Go back to your repository and we make a simple change to the *server.js* file to trigger the Cloud Build. 
+Go back to your repository and we make a simple change to the *server.js* file to trigger the Cloud Build. Write anything withing the quotes and commit the file. 
+`res.end('AWESOME- TFT')`
 
+At the Cloud Build History, we can see that a build is in progess and after the build has been completed, it will provide with a service URL through which we can access the website. 
+![image](https://user-images.githubusercontent.com/59771258/117809618-0127b380-b27c-11eb-9786-1054e1924177.png)
+
+Browse to the URL and you will be able to see the website.
+![image](https://user-images.githubusercontent.com/59771258/117809722-25839000-b27c-11eb-8cad-542b0bf52b88.png)
 
 
