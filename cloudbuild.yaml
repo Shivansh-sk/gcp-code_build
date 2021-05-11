@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/gce-kubernetes-lab/gcp-code_build:$SHORT-SHA', '.']
+  args: ['build', '-t', 'gcr.io/gce-kubernetes-lab/gcp-code_build:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/gce-kubernetes-lab/gcp-code_build:$SHORT-SHA']
+  args: ['push', 'gcr.io/gce-kubernetes-lab/gcp-code_build:$SHORT_SHA']
  
